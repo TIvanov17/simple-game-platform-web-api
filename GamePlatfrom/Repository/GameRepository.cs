@@ -74,7 +74,7 @@ namespace GamePlatform.Repository
         public void Delete(int id)
         {
             Game game = GetGameById(id);
-            if(game != null)
+            if (game != null)
             {
                 collectionOfGames.Remove(game);
             }

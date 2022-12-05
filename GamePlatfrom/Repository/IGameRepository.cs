@@ -11,5 +11,6 @@ namespace GamePlatform.Repository
         void Create(Game game);
         void UpdateGameRegion(int id, string region);
         void UpdateGamePrice(int id, Currency currency);
+        void Delete(int id);
     }
 }
